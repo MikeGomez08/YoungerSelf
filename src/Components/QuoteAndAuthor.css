@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+.card {
+    align-items: center ;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 20%;
+    margin-bottom: 50%; 
+}
+hr{
+    width: 50%;
+}
+mark {
+    background-color: #fbeee0;
+}
+.title{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size:  30px;
+    
+}
+.card-body {
+    background-color: #eee;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Source Sans Pro';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 80px;
+  
+}
+.card-title{
+    font-family: 'Lustria', serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.catto {
+    width: 300px;
+    transform: rotate(-20deg);
+    margin: 1%;
+}
+
+button {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 1%;
+}
+
+button:hover {
+  background-color: #fff;
+}
+
+button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
